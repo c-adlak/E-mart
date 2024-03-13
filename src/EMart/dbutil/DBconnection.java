@@ -16,6 +16,7 @@ public class DBconnection {
     private static Connection conn;
     static{
         try{
+          System.out.println("loading driver");
            Class.forName("oracle.jdbc.OracleDriver");
           
 //           String url = "jdbc:oracle:thin:2//DESKTOP-VPR5Q24:1521/xe";
